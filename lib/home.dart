@@ -1,3 +1,4 @@
+import 'package:app_teste_2/notificacoes.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -11,8 +12,7 @@ class _HomeState extends State<Home> {
   static final List<Widget> _paginas = [
     const Text("Home screen",
         style: TextStyle(fontSize: 16, color: Colors.green)),
-    const Text("Notifications",
-        style: TextStyle(fontSize: 16, color: Colors.green)),
+    const Notificacoes(),
     const Text("Settings", style: TextStyle(fontSize: 16, color: Colors.green)),
   ];
   int _elementoselecionado = 0;
